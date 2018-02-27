@@ -8,6 +8,10 @@
   },
   "author": "ben glasser",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenGlasser/Pancake-Flipper.git"
+  },
   "dependencies": {
     "argparse": "^1.0.10"
   }
