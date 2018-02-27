@@ -7,7 +7,7 @@ a command line utility used to determine the minimal number of flips to turn a s
 
 ## Installation
 
-```npm install -g ball-clock```
+```npm install -g pancake-flipper```
 
 ## Usage
 
