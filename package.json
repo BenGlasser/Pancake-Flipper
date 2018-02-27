@@ -1,6 +1,6 @@
 {
   "name": "pancake-flipper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "efficient pancake flipper",
   "main": "index.js",
   "scripts": {
