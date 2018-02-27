@@ -1,0 +1,11 @@
+{
+  "name": "infinite-pancakes",
+  "version": "1.0.0",
+  "description": "efficient pancake flipper",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ben glasser",
+  "license": "MIT"
+}
