@@ -5,7 +5,7 @@ var main = require('../lib/index');
 var ArgumentParser = require('argparse').ArgumentParser;
 
 var parser = new ArgumentParser({
-  version: '@VERSION@',
+ version: '1.0.1',
   addHelp:true,
   description: 'Pancake Flipper is a command line utility used to determine the minimal number of flips to turn a stack of pancakes right side up'
 });
