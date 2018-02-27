@@ -1,7 +1,7 @@
 
 [![NPM](https://nodei.co/npm/pancake-flipper.png)](https://npmjs.org/package/pancake-flipper)
 
-#Pancake Flipper 
+# Pancake Flipper 
 
 a command line utility used to determine the minimal number of flips to turn a stack of pancakes right side up
 
