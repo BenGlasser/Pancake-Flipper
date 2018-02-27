@@ -12,6 +12,13 @@
     "type": "git",
     "url": "https://github.com/BenGlasser/Pancake-Flipper.git"
   },
+  "bin": {
+    "pancake-flipper": "./bin/pancake-flipper"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "dependencies": {
     "argparse": "^1.0.10"
   }
