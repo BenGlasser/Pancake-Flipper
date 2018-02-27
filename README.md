@@ -1,7 +1,7 @@
 
-[![NPM](https://nodei.co/npm/ball-clock.png)](https://npmjs.org/package/pancake-flipper)
+[![NPM](https://nodei.co/npm/pancake-flipper.png)](https://npmjs.org/package/pancake-flipper)
 
-# Ball Clock
+#Pancake Flipper 
 
 a command line utility used to determine the minimal number of flips to turn a stack of pancakes right side up
 
