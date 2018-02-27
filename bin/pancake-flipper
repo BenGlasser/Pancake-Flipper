@@ -1,5 +1,25 @@
 #!/usr/bin/env node
+'use strict';
 
 var main = require('../lib/index');
+var ArgumentParser = require('argparse').ArgumentParser;
 
-main.runStdIn();
+var parser = new ArgumentParser({
+  version: '@VERSION@',
+  addHelp:true,
+  description: 'Pancake Flipper is a command line utility used to determine the minimal number of flips to turn a stack of pancakes right side up'
+});
+parser.addArgument(
+  [ '-f', '--file' ],
+  {
+    help: 'file containing test cases'
+  }
+);
+var args = parser.parseArgs();
+
+if (args.file) {
+  main.runFileIn(args.file)
+}
+else {
+  main.runStdIn();
+}
